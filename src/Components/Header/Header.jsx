@@ -69,7 +69,7 @@ function Header() {
               Log in
             </a>
             <a
-              href="#"
+              href="/contact"
               className="bg-accentBlue text-white font-medium py-2 px-4 rounded-xl hover:bg-darkBlue transition-colors duration-300"
             >
               Contact Us

@@ -8,7 +8,7 @@ const Home = () => {
           <h1 className="text-4xl font-bold text-darkBlue">Welcome to Our Hospital</h1>
           <p className="mt-4 text-lg text-accentBlue">Compassionate Care, Trusted Expertise</p>
           <div className="mt-6">
-            <a href="#" className="bg-accentBlue text-white font-medium py-2 px-6 rounded-lg hover:bg-darkBlue">Make an Appointment</a>
+            <a href="/contact" className="bg-accentBlue text-white font-medium py-2 px-6 rounded-lg hover:bg-darkBlue">Make an Appointment</a>
           </div>
         </div>
       </div>
