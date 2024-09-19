@@ -1,18 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './layout';
+import Home from './pages/home';
+import About from './pages/about';
+
 
 function App() {
-  
-
   return (
-    <div className='h-[80vh] flex items-center justify-center'>
-  <div className='text-center font-bold text-4xl'>
-    Rotaract club of tcet
-  </div>
-</div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
