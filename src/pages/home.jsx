@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchSection from '../Components/searchSection';
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <SearchSection></SearchSection>
+
       <div className="max-w-screen-xl mx-auto py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Emergency Care */}
